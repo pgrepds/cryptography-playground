@@ -485,7 +485,6 @@ it("PKCS#7 and S/MIME playground", async () => {
   // convert to PEM
   // TypeScript is not up-to-date
   var pkcs7EnvelopePEM = pkcs7.messageToPem(pkcs7Envelope)
-  console.log(pkcs7EnvelopePEM)
   /**
    * The final PKCS#7 Envelope looks like this:
   PKCS7:
@@ -572,8 +571,6 @@ it("PKCS#7 and S/MIME playground", async () => {
     }],
   })
   pkcs7SignedData.sign()
-  console.log("hello world")
-  console.log(pkcs7.messageToPem(pkcs7SignedData))
   /**
    * The final pkcs#7 signed part looks like this:
   Certificate:
