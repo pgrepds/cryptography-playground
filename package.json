@@ -1,0 +1,20 @@
+{
+  "name": "cryptography-playground",
+  "version": "1.0.0",
+  "description": "Playing around with cryptography in Javascript",
+  "main": "index.js",
+  "repository": "https://github.com/pgrepds/cryptography-playground.git",
+  "author": "David Scholz <scholz.david93@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.6",
+    "node-forge": "^0.10.0",
+    "pki": "^1.1.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node-forge": "^0.10.0",
+    "ts-jest": "^27.0.3"
+  }
+}
