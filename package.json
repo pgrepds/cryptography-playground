@@ -4,7 +4,7 @@
   "description": "Playing around with cryptography in Javascript",
   "main": "index.js",
   "repository": "https://github.com/pgrepds/cryptography-playground.git",
-  "author": "David Scholz <scholz.david93@gmail.com>",
+  "author": "pgrepds <david.scholz@pgrepds.io>",
   "license": "MIT",
   "dependencies": {
     "@types/jest": "^26.0.23",
